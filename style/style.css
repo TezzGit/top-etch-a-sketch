@@ -1,0 +1,44 @@
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+#header {
+    flex: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#title {
+    flex: auto;
+    display: flex;
+    justify-content: center;
+}
+
+#settings {
+    flex: 0;
+    display: flex;
+}
+
+#grid {
+    height: 100vh;
+    width: 100vw;
+    display:flex;
+    background-color: darkgrey;
+    flex: auto;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.grid-square {
+    background-color: grey;
+    display: flex;
+}
+
+.grid-square:hover {
+    background-color: white;
+}
